@@ -21,7 +21,7 @@ const upload = multer({
 
 // Your MongoDB connection string
 const connectionString =
-  "mongodb+srv://BiswajitPaul:Bishupaul13@blogcluster.8thlqqf.mongodb.net/?retryWrites=true&w=majority";
+  "";
 
 // Connect to MongoDB cluster
 MongoClient.connect(connectionString, {
